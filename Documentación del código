@@ -1,0 +1,25 @@
+Propósito: Este script permite la extracción de imágenes y texto de un documento PDF. Utiliza la biblioteca fitz para manejar el PDF, easyocr para extraer texto de las imágenes y matplotlib para visualizar las cajas delimitadoras de texto.
+
+Flujo de trabajo:
+
+El script abre un archivo PDF especificado (Pdf_1.pdf) y extrae las imágenes de cada página del PDF.
+Utiliza EasyOCR para procesar el texto de las imágenes extraídas.
+Visualiza las imágenes junto con las cajas delimitadoras de texto.
+Guarda las imágenes visualizadas y el texto extraído en archivos separados en las carpetas Imagenes y Texto, respectivamente.
+Dependencias:
+
+fitz: Una biblioteca para trabajar con archivos PDF.
+easyocr: Una biblioteca para reconocimiento óptico de caracteres (OCR).
+matplotlib: Una biblioteca para visualización de datos en Python.
+PIL: Una biblioteca para manipulación de imágenes en Python.
+Entradas:
+
+Pdf_1.pdf: Nombre del archivo PDF de entrada.
+Salidas:
+
+Imágenes visualizadas con cajas delimitadoras de texto.
+Archivos de texto con el texto extraído de las imágenes.
+Consideraciones:
+
+Asegúrese de tener los permisos necesarios para leer y escribir archivos en las carpetas especificadas.
+Es necesario tener las dependencias instaladas correctamente (fitz, easyocr, matplotlib, PIL).
