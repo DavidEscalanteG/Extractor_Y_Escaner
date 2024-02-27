@@ -19,7 +19,7 @@ Salidas:
 
 Imágenes visualizadas con cajas delimitadoras de texto.
 Archivos de texto con el texto extraído de las imágenes.
-Consideraciones:
 
+Consideraciones:
 Asegúrese de tener los permisos necesarios para leer y escribir archivos en las carpetas especificadas.
 Es necesario tener las dependencias instaladas correctamente (fitz, easyocr, matplotlib, PIL).
